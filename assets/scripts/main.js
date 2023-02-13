@@ -1,3 +1,6 @@
-import { FrontendmentorFooter } from "./components/frontendmentor.js";
+function setTheme(){
+  const root = document.documentElement
+  root.classList.toggle('dark')
+}
 
-window.customElements.define('frontendmentor-footer', FrontendmentorFooter);
+document.querySelector('.main__btn').addEventListener('click',setTheme)

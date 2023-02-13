@@ -52,3 +52,22 @@ Using mixin
   }
 }
 ```
+
+### Useful resources
+
+- [SitePoint](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/) Post about form validation.
+- [w3school](https://www.w3schools.com/) - To consult about doubts that appeared.
+- [mdn_](https://developer.mozilla.org/en-US/) - MDN Web Docs has the most up-to-date and accurate information and the content is presented in an easy-to-understand manner. I also like that it's available in many languages (very important!).
+- [css-tricks](https://css-tricks.com/) To seek guidance and learn about CSS regarding any doubts or questions that have appeared.
+- [SitePoint](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/) Post about form validation.
+- [web.dev](https://web.dev/learn/forms/) A course about HTML forms to help you improve your web developer expertise..
+- [w3school](https://www.w3schools.com/) - To consult about doubts that appeared.
+- [mdn_](https://developer.mozilla.org/en-US/) - MDN Web Docs has the most up-to-date and accurate information and the content is presented in an easy-to-understand manner. I also like that it's available in many languages (very important!).
+- [css-tricks](https://css-tricks.com/) To seek guidance and learn about CSS regarding any doubts or questions that have appeared.
+- [w3school](https://www.w3schools.com/) - To consult about doubts that appeared.
+- [mdn_](https://developer.mozilla.org/en-US/) - MDN Web Docs has the most up-to-date and accurate information and the content is presented in an easy-to-understand manner. I also like that it's available in many languages (very important!).
+
+## Author
+
+- Frontend Mentor - [@elioflo](https://www.frontendmentor.io/profile/elioflo)
+- Twitter - [@7532elioflo](https://twitter.com/7532elioflo)

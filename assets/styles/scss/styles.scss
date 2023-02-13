@@ -1,4 +1,4 @@
-@use 'normalize';
-@use 'variables';
-@use 'base';
-@use 'container';
+@use 'abstract/variables';
+@use 'base/typography';
+@use 'base/reset';
+@use 'components/main'

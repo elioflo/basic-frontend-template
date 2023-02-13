@@ -1,3 +1,13 @@
+:root {
+  --main-color: #393E46;
+  --main-bg-color: #FAFAFA;
+}
+
+:root.dark {
+  --main-color: #FAFAFA;
+  --main-bg-color: #393E46;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -309,10 +319,29 @@ template {
   display: none;
 }
 
-.container {
+.main {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  gap: 1rem;
   min-height: 100vh;
-  display: grid;
-  place-content: center;
+}
+.main__title {
+  text-transform: capitalize;
+}
+.main__btn {
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  border-style: none;
+  color: var(--main-bg-color);
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
