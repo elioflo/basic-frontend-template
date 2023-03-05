@@ -1,16 +1,8 @@
 .main {
-  background-color: var(--main-bg-color);
-  color: var(--main-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: sans-serif;
-  gap: 1rem;
-  min-height: 100vh;
 
-  &__title {
-    text-transform: capitalize;
+  &__title, &__btn {
+    text-transform: uppercase;
   }
 
   &__btn {
@@ -21,6 +13,5 @@
     font-weight: bold;
     letter-spacing: .3rem;
     padding: 0.5rem 1rem;
-    text-transform: uppercase;
   }
 }

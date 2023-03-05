@@ -1,9 +1,11 @@
-$min-tablet: 426px;
-$min-laptop: 769px;
-$min-desktop: 1025px;
-$tablet: "(min-width: #{$min-tablet})";
-$laptop: "(min-width: #{$min-laptop})";
-$desktop: "(min-width: #{$min-desktop})";
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$sm-screen: "(min-width: #{$sm})";
+$md-screen: "(min-width: #{$md})";
+$lg-screen: "(min-width: #{$lg})";
+$xl-screen: "(min-width: #{$xl})";
 
 @mixin media-query($query) {
     @media #{$query} {
